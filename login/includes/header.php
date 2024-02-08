@@ -18,7 +18,7 @@
     </ul>
     <ul class="nav navbar-nav navbar-right">
       <li><a href="..\login\panel_data.php"><span class="glyphicon glyphicon-sunglasses"></span> Admin panel</a></li>
-      <li><a href="..\login\edit.php"><span class="glyphicon glyphicon-user"></span> Profile</a></li>
+      <li><a href="..\login\edit.php"><span class="glyphicon glyphicon-user"></span>edit profile</a></li>
       <li><a href="..\index.php" onclick="confirmLogout()"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
     </ul>
   </div>
