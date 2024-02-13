@@ -12,9 +12,36 @@
     
     <?php include_once '..\login\includes\header.php'; ?>
 
+    <?php
+
+        $connection = mysqli_connect('localhost', 'root', '', 'database');
+
+        if (!$connection) {
+            die("Connection failed: " . mysqli_connect_error());
+        }
+
+        $query = "SELECT book_id FROM book ORDER BY book_id DESC LIMIT 1";
+        $result = mysqli_query($connection, $query);
+
+        if ($result) {
+
+            $row = mysqli_fetch_assoc($result);
+
+            mysqli_free_result($result);
+
+            mysqli_close($connection);
+
+            $lastBookID = $row['book_id'];
+        } else {
+            // Handle the case where the query fails
+            $lastBookID = "Error fetching Book ID";
+        }
+
+    ?> 
     <div class="content-wrapper">
     <form id="bookForm" method="post" action="regbook.php">
         <h1>Book Registration</h1>
+        <p id="p2"><?php echo "Last Book ID : ". htmlspecialchars($lastBookID); ?></p>
         <div>
             <label for="bookId">Book ID:</label>
             <input type="text" id="bookId" name="bookId" pattern="B[0-9]{3}"
