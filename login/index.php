@@ -10,7 +10,7 @@
 <body style="background-image: url('img/loginpic.jpg'); background-size: cover;">
     <div class="d-flex justify-content-center align-items-center vh-100">
         
-        <form class="shadow w-450 p-3" action="php/signup.php" method="POST">
+        <form class="shadow w-450 p-3" action="php/signup_process.php" method="POST">
 
             <h4 class="display-4 fs-1">Create Account</h4><br>
             <?php if(isset($_GET['error'])){ ?>

@@ -11,7 +11,7 @@
     <div class="d-flex justify-content-center align-items-center vh-100 custombg">
     	
     	<form class="shadow w-450 p-4" 
-    	      action="php/login.php" 
+    	      action="php/login_process.php" 
     	      method="post">
 
     		<h4 class="display-4  fs-1">LOGIN</h4><br>
