@@ -1,0 +1,197 @@
+
+    body {
+        font-family: Arial, sans-serif;
+        margin: 40px;
+        padding: 0px;
+        background-color: #f0f0f0;
+        color: #333; 
+        background-image: url('library.jpg'); 
+        background-size: cover; 
+        background-position: center;
+        background-repeat: no-repeat;
+        }
+    
+
+    button.submit-button {
+        display: block;
+        width: 85%;
+        padding: 5px;
+        background-color: #3d4548;
+        color: #fff;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-size: 15px;
+        margin: 0 auto; 
+        height: 40px;
+        font-weight: bold;
+    }
+    
+    button.submit-button:hover {
+        background-color: #164863; 
+        box-shadow: 0 0 20px rgba(114, 114, 114, 0.8);
+    }
+    #clearFormButton:hover {
+        background-color: #164863; 
+        box-shadow: 0 0 20px rgba(114, 114, 114, 0.8);
+    }
+    
+    form.styled-form {
+        max-width: 600px;
+        margin:30px;
+        margin-right:40px;
+        padding: 40px;
+        background-color: #f0eef2e5; 
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 500px;
+        border: 2px solid #125572; 
+        
+    }
+    
+    label {
+        display: block;
+        margin-bottom: 10px;
+    }
+    
+    input {
+        width: 100%;
+        padding: 8px;
+        margin-bottom: 10px;
+        box-sizing: border-box;
+        border:1px solid #333;
+        background-color: #f0f7f7e0;
+    }
+    
+    h3 {
+        background-color: #0a3248;
+        font-size: 22px;
+        padding: 5px;
+        text-align: center;
+        height: 50px;
+        width: 100%;
+        border-radius: 5px;
+        color: #ffffff;
+        font-weight: bold;
+        margin: 0 auto;
+      }
+      @media (max-width: 1000px) {
+        h3 {
+          font-size: 17px; 
+        }
+      }      
+
+    h5{
+      background-color:#0a3248 ;
+      text-align: center;
+      height: 30px;
+      border-radius: 5px;
+      color: #fff;
+      font-size: 15px;
+      padding: 5px;
+      
+    }
+    form.second-form{
+        max-width: 400px;
+        margin:50px;
+        margin-left: 50px;
+        height: 200px;
+        padding: 20px;
+        background-color: #f0eef2e5; 
+        border-radius: 8px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        
+
+    }
+    form.second-form2{
+        max-width: 400px;
+        margin:50px;
+        margin-left: 50px;
+        height: 100px;
+        padding: 20px;
+        background-color: #f0eef2e5; 
+        border-radius: 8px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        
+
+    }
+    form.second-form3{
+        max-width: 400px;
+        margin:50px;
+        margin-left: 50px;
+        height: 100px;
+        padding: 20px;
+        background-color: #f0eef2e5; 
+        border-radius: 8px;
+        box-shadow: 0 0 30px rgba(0, 0, 0, 0.1);
+        
+
+    }
+    .line-break {
+        margin-bottom: 40px;
+    }
+    
+    button.b4 {
+        width: 300px;
+        padding: 10px;
+        margin: 0 auto; 
+        display: block; 
+        background-color: #164863; 
+        color: #fff; 
+        border: none;
+        border-radius: 15px;
+        cursor: pointer;
+
+        font-weight: bold;
+        transition: all .5s ease;
+        border: 3px solid white;
+        font-family:'Montserrat', sans-serif;
+        text-transform: uppercase;
+        text-align: center;
+        line-height: 1;
+        font-size: 17px;
+        outline: none;
+    }
+
+    
+    button.b4:hover {
+        color: #164863;
+        background-color: #ddf2fd;
+        border: 2px solid #125572;
+    }
+    button.b5 {
+        width: 150px;
+        padding: 10px;
+        margin: 0 auto;
+        margin-top: 5px;
+        display: block;
+        background-color: #3d4548; 
+        color: #fff;
+        border: none;
+        border-radius: 30px;
+        cursor: pointer;
+        font-size: 14px;
+        font-weight: bold;
+    }
+
+    button.b5:hover {
+        box-shadow: 0 0 20px rgba(114, 114, 114, 0.8);
+        background-color: #164863;
+
+    }
+    form.update {
+        max-width: 600px;
+        margin:30px;
+        margin-right:40px;
+        padding: 40px;
+        background-color: #f0eef2e5;
+        border-radius: 8px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        height: 525px;
+        border: 2px solid #125572;
+    }
+    #p2{
+        background-color: #125572;
+        color : #FFF;
+        border-radius: 5px;
+    }
